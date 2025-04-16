@@ -1,0 +1,21 @@
+{
+  "name": "simulator-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "start": "node publisher.js",
+    "dev": "nodemon publisher.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mqtt": "^5.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
